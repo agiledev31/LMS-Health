@@ -1,0 +1,229 @@
+.color,
+.pie-chart-icon {
+  position: relative;
+  width: 14.5rem;
+  height: 14.5rem;
+}
+.color {
+  border-radius: 50%;
+  background-color: var(--color-seagreen-100);
+  width: 0.41rem;
+  height: 0.41rem;
+}
+.dot {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0.31rem 0 0;
+}
+.series-1 {
+  position: relative;
+  line-height: 1.04rem;
+}
+.legend-series {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.41rem;
+}
+.color1,
+.color3 {
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-darkorange);
+  width: 0.41rem;
+  height: 0.41rem;
+}
+.color3 {
+  background-color: var(--primary-300);
+}
+.legend-series3 {
+  align-self: stretch;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.41rem;
+}
+.color4,
+.color5,
+.color6 {
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-mediumvioletred-100);
+  width: 0.41rem;
+  height: 0.41rem;
+}
+.color5,
+.color6 {
+  background-color: var(--primary-200);
+}
+.color6 {
+  background-color: var(--blue-500);
+}
+.legend,
+.pie-chart {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.21rem;
+}
+.pie-chart {
+  position: absolute;
+  top: 3.38rem;
+  left: 4.78rem;
+  width: 18.81rem;
+  flex-direction: row;
+  gap: 0.83rem;
+}
+.dtail {
+  position: absolute;
+  top: 2.56rem;
+  left: 2.5rem;
+  font-size: var(--font-size-3xl);
+  line-height: 1.58rem;
+  color: var(--color-black);
+}
+.pie-chart-parent {
+  position: absolute;
+  top: 5.44rem;
+  left: 39.19rem;
+  border-radius: var(--br-xs);
+  background-color: var(--color-whitesmoke-200);
+  border: 1px solid var(--gray-300);
+  box-sizing: border-box;
+  width: 26rem;
+  height: 19.63rem;
+  text-align: left;
+  color: var(--gray-600);
+}
+.bravo-pour-ta {
+  margin-block-start: 0;
+  margin-block-end: 16.8px;
+}
+.dcouvre-la-correction {
+  margin: 0;
+}
+.bravo-pour-ta-container {
+  position: absolute;
+  top: 2.56rem;
+  left: 3.06rem;
+  font-size: var(--font-size-3xl);
+  line-height: 1.88rem;
+  color: var(--color-black);
+  text-align: left;
+}
+.text {
+  position: relative;
+  line-height: 1.59rem;
+  font-weight: 500;
+}
+.badge,
+.text1 {
+  position: absolute;
+}
+.badge {
+  top: 0;
+  left: 0;
+  border-radius: 20.35px;
+  background-color: var(--gray-blue-50);
+  border: 1.3px solid var(--gray-blue-200);
+  box-sizing: border-box;
+  width: 4.47rem;
+  height: 2.53rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0.32rem 0.95rem;
+  mix-blend-mode: multiply;
+}
+.text1 {
+  top: 0.22rem;
+  left: 6.06rem;
+  font-size: var(--font-size-6xl-4);
+  line-height: 1.82rem;
+  color: var(--color-gray);
+  text-align: left;
+}
+.badge-group,
+.badge-parent {
+  position: absolute;
+  top: 7.88rem;
+  left: 3.06rem;
+  width: 12.06rem;
+  height: 2.53rem;
+}
+.badge-group {
+  top: 10.69rem;
+  width: 10.63rem;
+}
+.bravo-pour-ta-session-dc-parent {
+  position: absolute;
+  top: 5.44rem;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--color-whitesmoke-200);
+  border: 1px solid var(--gray-300);
+  box-sizing: border-box;
+  width: 38.19rem;
+  height: 19.63rem;
+  font-size: var(--font-size-mid-8);
+}
+.text4 {
+  position: relative;
+  line-height: 1.38rem;
+  font-weight: 500;
+}
+.badge2,
+.text5 {
+  position: absolute;
+}
+.badge2 {
+  top: 1.13rem;
+  left: 3.19rem;
+  border-radius: 17.62px;
+  background-color: var(--gray-blue-50);
+  border: 1.1px solid var(--gray-blue-200);
+  box-sizing: border-box;
+  width: 8.56rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0.28rem 0.83rem;
+  mix-blend-mode: multiply;
+}
+.text5 {
+  top: 1.31rem;
+  left: 14.19rem;
+  font-size: var(--font-size-3xl);
+  line-height: 1.58rem;
+  color: var(--color-gray);
+  text-align: left;
+}
+.dp-score {
+  position: absolute;
+  top: 0;
+  left: 0.19rem;
+  border-radius: var(--br-xs);
+  background-color: var(--color-whitesmoke-200);
+  border: 1px solid var(--gray-300);
+  box-sizing: border-box;
+  width: 65.19rem;
+  height: 4.25rem;
+  font-size: 0.96rem;
+}
+.frame-parent {
+  position: relative;
+  width: 100%;
+  height: 25.06rem;
+  text-align: center;
+  font-size: var(--font-size-xs-6);
+  color: var(--gray-blue-700);
+  font-family: var(--text-sm-medium);
+}
